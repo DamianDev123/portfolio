@@ -30,6 +30,8 @@ export default function Project({
   const hasImages = images && images.length > 0;
 
   return (
+    <>
+    <div className="bg-pink-300 w-[98%] mx-auto h-0.5 mt-2 mb-5 "/>
     <div className="w-full h-150 bg-[#faeaf4] rounded-2xl p-6 transition-all duration-300 flex justify-between items-stretch gap-6">
 
       <div className="flex flex-col justify-between flex-1 pr-4 py-1">
@@ -109,5 +111,6 @@ export default function Project({
       </div>
 
     </div>  
+    </>
   );
 }

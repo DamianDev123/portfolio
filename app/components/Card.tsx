@@ -3,7 +3,6 @@ import Image from 'next/image';
 export default function Card() {
   return (
     <>
-      <div className="bg-pink-300 w-[98%] mx-auto h-0.5 mt-2 mb-5 "/>
       <div className="w-full flex flex-col justify-between items-center bg-[#faeaf4] min-h-112 border border-[#f3bcdf] rounded-2xl p-6 shadow-md hover:shadow-lg transition-shadow duration-300">
         
         <div className="w-full flex flex-col items-center">
