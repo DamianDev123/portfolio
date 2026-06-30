@@ -1,36 +1,35 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# My Engineering & Robotics Portfolio
+A dynamic web portfolio showcasing competitive robotics engineering, custom hardware, 3D designs, and embedded control systems.
 
-## Getting Started
+# 🚀 Try Project Live | See Source Code
+Quick Start.
 
-First, run the development server:
+To explore the source code or run the portfolio interface locally:
 
-```bash
+git clone https://github.com/DamianZZZ/portfolio.git
+
+cd portfolio
+
+npm install
+
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open http://localhost:3000 to view it in your browser.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+# Featured Projects
+### FTC DECODE Robot: My competitive FIRST Tech Challenge robot. 
+Includes full CAD, and the custom Java/Kotlin programming and PID control loops driving our autonomous routines.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+### Triple Eyes Animatronic: 
+A multi-axis animatronic project driven by microcontrollers.
+Which showcases my work with microcontrollers, servos, and translating complex organic motion into physical mechanisms.
 
-## Learn More
+### Hackpad:
+A custom mechanical macropad built entirely from scratch. 
+I’ve detailed the full development cycle here, from schematic 
+circuit routing and PCB design to stylized, final 3D product renders.
 
-To learn more about Next.js, take a look at the following resources:
+### Walker Wheels:
+A collaborative design project focused on assistive technology. We modified standard mobility walkers to significantly improve steering and spatial mobility for elderly users.at isolate client-side render exceptions.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+### Credits / Acknowledgements
