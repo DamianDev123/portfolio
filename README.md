@@ -6,7 +6,8 @@ Quick Start.
 
 To explore the source code or run the portfolio interface locally:
 
-git clone https://github.com/DamianZZZ/portfolio.git
+git clone https://github.com/DamianDev123/portfolio.git
+
 
 cd portfolio
 
