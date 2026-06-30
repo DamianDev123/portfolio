@@ -8,7 +8,7 @@ export default function Card() {
         <div className="w-full flex flex-col items-center">
           <div className="relative w-28 h-28 mt-2 overflow-hidden rounded-full border border-[#f3bcdf]">
             <Image
-                src="/facecard.png"
+                src="./facecard.png"
                 alt="facecard"
                 fill
                 className="object-cover"
