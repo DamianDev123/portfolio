@@ -8,7 +8,7 @@ export default function Home() {
       <div className="p-6 md:p-12 max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-4 gap-8 items-start">
         
         <div className="md:col-span-1 w-full">
-          <Card />
+          <Card facecard="https://raw.githubusercontent.com/DamianDev123/portfolio/refs/heads/main/public/facecard.png"/>
         </div>
         <div className="md:col-span-3 w-full grid grid-cols-1 sm:grid-cols-2 gap-6">
           <Project title="Triple eyes animatronic" description="In summer 2025, I set out to build a realistic three-eye animatronic to learn microcontrollers and servos. The project quickly grew in complexity, leading me to upgrade to a Raspberry Pi Zero 2 W and implement custom UV joints to handle the independent eye motion." imageUrl="./eyes.mp4" video={true} mediaLink="https://www.instagram.com/p/DNG3bxVyZ4e/" mediaType="IG post"/>

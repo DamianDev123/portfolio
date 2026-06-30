@@ -1,6 +1,6 @@
 import Image from 'next/image';
 
-export default function Card() {
+export default function Card({facecard}:{facecard:string}) {
   return (
     <>
       <div className="w-full flex flex-col justify-between items-center bg-[#faeaf4] min-h-112 border border-[#f3bcdf] rounded-2xl p-6 shadow-md hover:shadow-lg transition-shadow duration-300">
@@ -8,7 +8,7 @@ export default function Card() {
         <div className="w-full flex flex-col items-center">
           <div className="relative w-28 h-28 mt-2 overflow-hidden rounded-full border border-[#f3bcdf]">
             <Image
-                src="./facecard.png"
+                src={facecard}
                 alt="facecard"
                 fill
                 className="object-cover"
