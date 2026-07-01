@@ -16,7 +16,7 @@ export const metadata: Metadata = {
   title: "Damian's Portfolio",
   description: "Check out my portfolio!",
   icons: {
-    icon: "./favicon.ico",
+    icon: "https://user-cdn.hackclub-assets.com/019f1f85-5451-7055-ab24-1d167a08ba25/favicon.ico",
   },
 };
 export default function RootLayout({
